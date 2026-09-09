@@ -1,0 +1,100 @@
+# Environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.production.example
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Node/React
+node_modules/
+/build
+/dist
+/.cache
+/.docusaurus
+/docs-temp
+/website/build
+/website/.docusaurus
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.backup
+!migrations/*.sql
+
+# OS
+.DS_Store
+Thumbs.db
+.env~
+
+# Project specific
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+.docker/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
